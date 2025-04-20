@@ -1,0 +1,93 @@
+body {
+    background: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    }
+    h1{color: white;}
+
+    @media screen and (max-width: 715px) {
+        header  {
+            height: 200px;
+        }
+        header .mobile{ display:inline-block;
+        }
+    
+        header .desktop{
+            display: none;  
+        }
+    
+    
+    }
+
+    header {
+        background-color: black;
+    background-image: url(images/Gym\ Background.jpg);
+    background-size: 100%;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    
+    }
+    header .mobile {
+        display: none;
+    }
+    header .Logo a {
+        background-repeat: no-repeat;
+        background-color: white;
+        background-image: url(Images/Logo.png);
+        background-size: 90px;
+        display: inline-block;
+        height: 90px;
+        text-indent: -9999999999px;
+        
+        width: 90px;
+        position:relative
+    }
+
+    section {
+    background: white;
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    }
+    div{
+        background:;
+        margin: left;
+        width: 800px;
+
+    }
+    ul{
+        margin: 0;   
+        padding: 0;
+        list-style-type: none;
+    }
+    li{
+        display: inline-block;
+        margin-right: 265px;   
+    }
+    footer {
+    background:;
+    padding: 10px 20px;
+     margin-left: 0px;
+    }
+    @media screen and (max-width: 715px) {
+    .features{display: block;
+    }
+    
+    
+    
+    
+    }
+.features   {
+    background-color: white;
+color: gray;
+padding: 20px;
+display: flex;
+flex-direction: row;
+}
+
+
